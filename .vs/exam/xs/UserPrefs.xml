@@ -1,0 +1,67 @@
+﻿<Properties StartupConfiguration="{39F4ECC6-0948-472E-9E31-48A2864A807C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="exam/Models/EmailService.cs">
+    <Files>
+      <File FileName="exam/Views/Admin/EditRole.cshtml" Line="16" Column="7" />
+      <File FileName="exam/Controllers/AdminController.cs" Line="16" Column="1" />
+      <File FileName="exam/Views/Shared/_Layout.cshtml" Line="23" Column="129" />
+      <File FileName="exam/Controllers/AccountController.cs" Line="261" Column="56" />
+      <File FileName="exam/Views/Shared/_LoginPartial.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Controllers/TrainingController.cs" Line="28" Column="3" />
+      <File FileName="exam/Views/Training/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Training/Create.cshtml" Line="35" Column="88" />
+      <File FileName="exam/Views/Training/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Models/Entities.cs" Line="17" Column="27" />
+      <File FileName="exam/Controllers/HallsController.cs" Line="17" Column="3" />
+      <File FileName="exam/Controllers/TrainingTypeController.cs" Line="14" Column="3" />
+      <File FileName="exam/Controllers/HomeController.cs" Line="37" Column="6" />
+      <File FileName="exam/Views/Home/Index.cshtml" Line="24" Column="123" />
+      <File FileName="exam/Views/Admin/UserList.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Admin/Roles.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Admin/Index.cshtml" Line="38" Column="30" />
+      <File FileName="exam/Views/Account/Login.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Models/Account/LoginModel.cs" Line="1" Column="1" />
+      <File FileName="exam/Models/Account/RegisterModel.cs" Line="1" Column="1" />
+      <File FileName="exam/Models/Account/DetailsModel.cs" Line="1" Column="1" />
+      <File FileName="exam/Views/Training/Index.cshtml" Line="52" Column="1" />
+      <File FileName="exam/Views/Training/Details.cshtml" Line="41" Column="54" />
+      <File FileName="exam/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Account/MyAccount.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Account/SubscribeTrainings.cshtml" Line="44" Column="17" />
+      <File FileName="exam/Views/Account/ChangePassword.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Admin/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="exam/Views/Account/TimeTable.cshtml" Line="70" Column="25" />
+      <File FileName="exam/Models/EmailService.cs" Line="23" Column="76" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="exam" expanded="True">
+            <Node name="exam" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="EmailService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Admin" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.exam PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/klaus/Projects/exam/exam/Controllers/AccountController.cs" relfile="exam/Controllers/AccountController.cs" line="208" column="1" />
+      <Breakpoint file="/Users/klaus/Projects/exam/exam/Views/Account/TimeTable.cshtml" relfile="exam/Views/Account/TimeTable.cshtml" line="38" column="1" />
+      <Breakpoint file="/Users/klaus/Projects/exam/exam/Views/Account/TimeTable.cshtml" relfile="exam/Views/Account/TimeTable.cshtml" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,34 @@
+﻿@model List<TType>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <li class="nav-item">
+        <a class="nav-link btn btn-primary text-dark" asp-area="" asp-controller="Home" asp-action="Index" data-toggle="modal" data-target="#exampleModal">Записать</a>
+    </li>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Выберите чем хотите заниматься</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Delete" method="post">
+                    @foreach (var type in Model)
+                    {
+                        <a asp-action="SubscribeTrainings" asp-controller="Account" asp-route-id="@type.Id">@type.Name</a>
+}
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Go</button>
+            </div>
+        </div>
+    </div>
+</div>
